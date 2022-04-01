@@ -27,14 +27,14 @@ body{
     display: inline-block;
     margin: 10px;
     padding: 10px;
- 
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 /*Navigation li a links*/
 .navigation ul li a{
     text-decoration: none;
-    color:white;
-    font-weight: 20px;
+    color:#05386B;
 }
 
 /******************************
@@ -45,64 +45,56 @@ body{
 .container1{
     display:flex;
     justify-content: center;
-    height: 400px;
+    height: 600px;
     background-color: #5cdb95
 }
 
 .container1 section{
-    border: 1px solid black;
     width: 800px;
     padding: 10px;
-    color:white;
+    color:#05386B;
+}
+
+.container1 section h2{
+    color:#edf5e1;
+    font-size: 60px;
 }
 
 /*Main content container 2*/
 .container2{
     display:flex;
     justify-content: center;
-    height: 400px;
+    height: 600px;
 }
 
 .container2 section{
-    border: 1px solid black;
     width: 800px;
     padding: 10px;
+    color:#05386B;
 }
 
 .container2 section h2{
     float:right;
+    font-size: 60px;
 }
 
 /*Main content container 3*/
 .container3{
     display:flex;
     justify-content: center;
-    height: 400px;
+    height: 600px;
     background-color: #5cdb95
 }
 
 .container3 section{
-    border: 1px solid black;
     width: 800px;
     padding: 10px;
-    color:white;
+    color:#05386B;
 }
 
-/*Main content container 4*/
-.container4{
-    display:flex;
-    justify-content: center;
-    height: 400px;
-}
-
-.container4 section{
-    border: 1px solid black;
-    width: 800px;
-    padding: 10px;
-}
-
-.container4 section h2{
-    float: right;
+.container3 section h2{
+    color:#edf5e1;
+    font-size: 60px;
 }
 
 /******************************
@@ -113,5 +105,5 @@ body{
     display: flex;
     justify-content: center;
     background-color: #5cdb95;
-    color: white;
+    color:#05386B;
 }
