@@ -35,6 +35,7 @@ body{
 .navigation ul li a{
     text-decoration: none;
     color:#05386B;
+    font-weight: bold;
 }
 
 /******************************
@@ -50,7 +51,7 @@ body{
 }
 
 .container1 section{
-    width: 800px;
+    width: 1000px;
     padding: 10px;
     color:#05386B;
 }
@@ -68,9 +69,25 @@ body{
 }
 
 .container2 section{
-    width: 800px;
+    width: 1000px;
     padding: 10px;
     color:#05386B;
+}
+
+.container2 section #project1{
+    width: 500px;
+}
+
+.container2 section #project2{
+    width: 500px;
+}
+
+.container2 section #project3{
+    width: 500px;
+}
+
+.container2 section #project4{
+    width: 500px;
 }
 
 .container2 section h2{
@@ -87,7 +104,7 @@ body{
 }
 
 .container3 section{
-    width: 800px;
+    width: 1000px;
     padding: 10px;
     color:#05386B;
 }
